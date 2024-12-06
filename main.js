@@ -2,6 +2,7 @@ const app = Vue.createApp({
     data() {
         return {
             cart: 0,
+            activeClass: true,
             product: 'Socks',
             image: './assets/images/socks_green.jpg',
             inStock: true,
